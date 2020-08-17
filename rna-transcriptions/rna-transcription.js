@@ -25,7 +25,7 @@ export const toRna = (dna) => {
     } else if (char == `A`) {
       //to U
       rna = rna + `U`
-    }
+    } //end of if/else statements
   } //replace each character
   return rna
 };
